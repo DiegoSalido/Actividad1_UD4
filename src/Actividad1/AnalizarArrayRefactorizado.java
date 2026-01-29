@@ -1,10 +1,12 @@
 package Actividad1;
 /**
- * Programa que analiza un conjunto de números para:
- * 1. Sacar el número más grande.
- * 2. Comprobar si el número más grande se repite.
- * 3. Calcular la media del array.
- * 4. Mostrar por pantalla si esta aprobado o no.
+ * Programa que analiza un conjunto de números.
+ * 
+ * Realiza las siguientes operaciones:
+ * 1. Busca el número mayor del array.
+ * 2. Comprueba si el número mayor se repite.
+ * 3. Calcula la media de los números.
+ * 4. Muestra por pantalla si está aprobado o no.
  */
 public class AnalizarArrayRefactorizado {
 	/** 
@@ -18,14 +20,15 @@ public class AnalizarArrayRefactorizado {
         int contador = 0;
         int numMayor = numeros[0];
         
-        
-        for (int i = 1; i < numeros.length; i++) { // Bucle que saca el número más alto
+        // Bucle que saca el número más alto
+        for (int i = 1; i < numeros.length; i++) { 
             if (numeros[i] > numMayor) {
                 numMayor = numeros[i];
             }
         }
-
-        for (int i = 0; i < numeros.length; i++) { // Bucle que indica si el número más alto se repite
+        
+        // Bucle que indica si el número más alto se repite
+        for (int i = 0; i < numeros.length; i++) { 
             if (numeros[i] == numMayor) {
                 contador++;
             }
@@ -38,13 +41,16 @@ public class AnalizarArrayRefactorizado {
         	System.out.println("El número " +numMayor +" no se repite.");
         }
 
+        // Suma todos los números del array
         int sumaNums = 0;
-        for (int i = 0; i < numeros.length; i++) { // Suma todos los números del array
+        for (int i = 0; i < numeros.length; i++) { 
             sumaNums += numeros[i];
         }
-
-        double media = (double)(sumaNums/ numeros.length); // Saca la media del array.
-        System.out.printf("La media de los número es: " +media);
+        
+        // Saca la media del array.
+        double media = (double)sumaNums / numeros.length; 
+        System.out.printf("La media de los número es: %.2f", media);
+        System.out.println("");
 
         if (media >= 5) {
             System.out.println("BIEN, esta aprobado.");

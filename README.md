@@ -11,6 +11,19 @@ El programa analiza un array de números enteros y realiza las siguientes operac
 - Calcula la media de los números.
 - Indica si la media es mayor o igual que 5.
 
+## Estructura del proyecto
+La estructura de carpetas del proyecto es la siguiente:
+
+Actividad1_UD4
+│
+├── README.md
+├── Justificacion.txt
+│
+└── src
+└── Actividad1
+├── AnalizarArrayOriginal.java
+└── NumberAnalyzer.java
+
 ## Cómo ejecutar el programa
 1. Compilar:
    javac NumberAnalyzer.java

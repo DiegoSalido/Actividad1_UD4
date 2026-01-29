@@ -1,8 +1,15 @@
 # Actividad 1 - Refactorización en Java
 
 ## Descripción
-Programa en Java que analiza un array de números.
-Calcula el número máximo, comprueba si se repite y calcula la media.
+Este proyecto forma parte de la unidad UD4 de la asignatura Entornos de Desarrollo.
+
+El objetivo es trabajar la documentación y la refactorización de un programa Java, aplicando buenas prácticas de programación sin modificar el funcionamiento del código original.
+
+El programa analiza un array de números enteros y realiza las siguientes operaciones:
+- Busca el número mayor del array.
+- Comprueba si el número mayor se repite.
+- Calcula la media de los números.
+- Indica si la media es mayor o igual que 5.
 
 ## Cómo ejecutar el programa
 1. Compilar:

@@ -1,0 +1,10 @@
+El código original funcionaba, pero era difícil de entender porque tenía variables con nombres poco claros y todo estaba dentro del método main.
+
+Los cambios realizados han sido:
+
+- Renombrar variables para que tengan nombres más claros.
+- Separar el código en métodos más pequeños.
+- Eliminar variables innecesarias.
+- Añadir comentarios y Javadoc sencillos.
+
+Gracias a estos cambios, el programa sigue haciendo lo mismo, pero ahora es más fácil de leer y entender, cumpliendo las buenas prácticas explicadas en el tema.
